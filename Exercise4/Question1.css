@@ -1,6 +1,7 @@
 * {
     margin: 0;
-    padding: 0;    
+    padding: 0;   
+    box-sizing: border-box; 
 }
 
 
@@ -20,7 +21,31 @@
 
 #bottom-header {
     height: 40px;
-    background-color: #a70e1a;;
+    background-color: #a70e1a;
+    justify-content: center;
+}
+
+#menu {
+    display: flex;
+    height: 40px;
+    justify-content: center;
+}
+
+#nav {
+    display: flex;
+    justify-content: center;
+}
+
+#nav li {
+    display: inline-block;
+}
+
+#nav li a {
+    display: inline-block;
+    text-decoration: none;
+    line-height: 40px;
+    color: #ffffff;
+    padding: 0 6px;
 }
 
 #body {
