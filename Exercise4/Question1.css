@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;    
+}
+
+
+#main {
+
+}
+
+#toolbar {
+    height: 25px;
+    background-color:#000000 ;
+}
+
+#top-header {
+    height: 70px;
+    background-color: #f0a52b;
+}
+
+#bottom-header {
+    height: 40px;
+    background-color: #a70e1a;;
+}
+
+#body {
+
+}
+
+#footer {
+
+}
